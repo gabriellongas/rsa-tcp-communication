@@ -1,12 +1,12 @@
 import random
+from Crypto.Util.number import getStrongPrime
 from math import gcd
-from prime_utils import generate_prime_candidate
 
 # Função para gerar as chaves pública e privada com chaves de 4096 bits
 def generate_keypair(length=4096):
     # Gera dois números primos p e q
-    p = generate_prime_candidate(length)
-    q = generate_prime_candidate(length)
+    p = getStrongPrime(length)
+    q = getStrongPrime(length)
     # Calcula n como o produto de p e q
     n = p * q
     # Calcula phi (função totiente de Euler)

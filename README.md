@@ -5,7 +5,6 @@ Este repositório contém um projeto de comunicação cliente-servidor utilizand
 
 ## Estrutura do Projeto
 
-- **`prime_utils.py`**: Contém funções para gerar números primos grandes e verificar se um número é primo. Utilizado para a criação de chaves RSA.
 - **`rsa_utils.py`**: Implementa a geração de chaves pública e privada RSA, além de funções para criptografar e descriptografar mensagens.
 - **`tcpclient.py`**: Implementa o cliente que se conecta a um servidor, troca chaves públicas e envia mensagens criptografadas.
 - **`tcpserver.py`**: Implementa o servidor que se conecta a um cliente, troca chaves públicas e processa mensagens criptografadas.
