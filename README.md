@@ -33,6 +33,7 @@ Este repositório contém um projeto de comunicação cliente-servidor utilizand
 1. **Instale as dependências**:
    ```bash
    pip install sympy
+   pip install cryptography
    ```
 
 2. **Inicie o Servidor**:
